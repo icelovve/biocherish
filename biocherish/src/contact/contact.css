@@ -1,0 +1,81 @@
+.first-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(/public/image/bg_product.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 110px 0;
+}
+
+.first-container h1 {
+    color: #ffffff;
+    font-size: 49px;
+    font-weight: 500;
+}
+
+.first-container button {
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 35px;
+    padding: 18px 48px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background-color 0.3s, border 0.3s;
+}
+
+.first-container button:hover {
+    cursor: pointer;
+    background-color: #8bc34a;
+    border: none;
+}
+
+.two-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: self-start;
+    padding: 40px;
+    margin-left: 15%;
+}
+
+.contact label {
+    font-size: 14px;
+    color: #333;
+}
+
+.contact input, .contact select, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact input[type="submit"] {
+    background-color: #669966;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.contact input[type="submit"]:hover {
+    background-color: #7cb342;
+}
+
+.address {
+    width: 45%;
+    padding: 20px;
+}
+
+.address h2 {
+    font-size: 18px;
+    color: #555;
+}
+
+.address p {
+    font-size: 16px;
+    color: #777;
+}

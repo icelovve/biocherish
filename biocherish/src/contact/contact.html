@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us | ผู้ผลิตและจำหน่ายสินค้าทางการเกษตร คุณภาพระดับพรีเมียม</title>
+    <link rel="stylesheet" href="/src/App/site_structure.css"></head>
+    <link rel="stylesheet" href="/src/contact/contact.css"></head></head>
+<body>
+    <main>
+        <header>
+            <nav>
+                <div class="nav-top">
+                    <div class="nav-logo">
+                        <img src="/public/icons/logo_biocherish.webp" alt="logo_biocherish">
+                    </div>
+                    <div class="nav-page">
+                        <ul>
+                            <li><a href="/src/App/index.html" >Home</a></li>
+                            <li><a href="/src/About us/about_us.html">About us</a></li>
+                            <li><a href="/src/Products/products.html">Our Products </a></li>
+                            <li><a href="/src/Our Farm/our_Farm.html">Our Farm</a></li>
+                            <li><a href="/src/growers/growers.html">Become a growers</a></li>
+                            <li><a href="/src/blogs/blogs.html">Blogs</a></li>
+                            <li><a href="/src/contact/contact.html" class="highlight">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <section>
+            <div class="first-container">
+                <h1>Contact us</h1>
+                <button>เกี่ยวกับเรา</button>
+            </div>
+        
+            </form>
+            <div class="two-container">
+                <div class="contact">
+                    <form action="/submit_form" method="POST">
+                        <label for="name">Name:</label><br>
+                        <input type="text" id="name" name="name" required><br><br>
+                
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email" required><br><br>
+                
+                        <label for="phone">Phone:</label><br>
+                        <input type="tel" id="phone" name="phone" required><br><br>
+                
+                        <label for="company">Company:</label><br>
+                        <input type="text" id="company" name="company"><br><br>
+                
+                        <label for="contactType">Contact Type:</label><br>
+                        <select id="contactType" name="contactType" required>
+                            <option value="support">Support</option>
+                            <option value="sales">Sales</option>
+                            <option value="feedback">Feedback</option>
+                            <option value="other">Other</option>
+                        </select><br><br>
+                
+                        <label for="message">Message:</label><br>
+                        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+                
+                        <input type="checkbox" id="privacyPolicy" name="privacyPolicy" required>
+                        <label for="privacyPolicy">ฉันรับทราบและยอมรับ นโยบายความเป็นส่วนตัว</label><br><br>
+                
+                        <input type="submit" value="Submit">
+                </div>
+                <div class="address">
+                    <h2>ที่อยู่</h2>
+                    <p>229 หมู่ 7 ตำบลนครเจดีย์ อำเภอป่าซาง จังหวัดลำพูน 51120</p>
+                    <h2>เบอร์โทร</h2>
+                    <p>053-096296</p>
+                    <h2>อีเมล์</h2>
+                    <p>biocherish@gmail.com</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-container">
+                <div class="footer-section-logo">
+                    <img src="/public/icons/footer_logo.webp" alt="footer_logo">
+                </div>
+                <div class="footer-section-contact-info">
+                    <p>
+                        บริษัท ไบโอเซอริช จำกัด<br>
+                        ที่อยู่: 229 หมู่ 7 ตำบลนครเจดีย์ อำเภอ<br>
+                        ป่าซาง จังหวัดสำพูน 51120
+                    </p>
+                </div>
+                <div class="footer-section-contact">
+                    <a href="#" class="highlight">053-096296</a>
+                    <a href="#">achitaorganic@gmail.com</a>
+                </div>
+                <div class="footer-section-social-media">
+                    <a href="#" class="highlight">Bio Cherish</a>
+                    <a href="#">@lumlumorganic</a>            
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; Copyright 2023 | All Rights Reserved | biocherish.co.th</p>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>

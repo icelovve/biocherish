@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* navigation bar */
+*{
+    font-family: "Chakra Petch", sans-serif;
+    font-style: normal;
+}
+
+nav{
+    background-color: #f1f8e9;
+    padding: 15px 0 10px 0;
+}
+
+.nav-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    position: static;
+    top: 20px;
+}
+
+.nav-top .nav-logo{
+    margin-left: 8%;
+}
+
+.nav-top .nav-page{
+    margin-right: 8%;
+}
+
+.nav-top .nav-page ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-top .nav-page ul li{
+    list-style: none;
+    margin-right: 38px;
+}
+
+.nav-top .nav-page ul li a{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 350;
+    text-decoration: none;
+}
+
+.nav-top .nav-page ul li a:hover{
+    color: #ffffff;
+    background-color: #8bc34a;
+    padding: 10px 18px;
+    cursor: pointer;
+}
+ 
+.nav-top .nav-page ul li .highlight {
+    color: #ffffff;
+    background-color: #8bc34a;
+    padding: 10px 18px;
+}
+
+/* Footer */
+.footer-container{
+    background-color: #669966;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 0 30px 0;
+    color: #ffffff;
+    font-size: 14;
+}
+
+.footer-container .footer-section-contact,
+.footer-container .footer-section-social-media{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-container .footer-section-contact a,
+.footer-container .footer-section-social-media a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14;
+}
+
+.footer-container .footer-section-contact .highlight,
+.footer-container .footer-section-social-media .highlight{
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    background-color: #ece4d4;
+    text-align: center;
+    font-size: 10px;
+    padding: 1px;
+}

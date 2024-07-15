@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Become a growers | ผู้ผลิตและจำหน่ายสินค้าทางการเกษตร คุณภาพระดับพรีเมียม</title>
+    <link rel="stylesheet" href="/src/App/site_structure.css"></head>
+    <link rel="stylesheet" href="/src/growers/growers.css">
+<body>
+    <main>
+        <header>
+            <nav>
+                <div class="nav-top">
+                    <div class="nav-logo">
+                        <img src="/public/icons/logo_biocherish.webp" alt="logo_biocherish">
+                    </div>
+                    <div class="nav-page">
+                        <ul>
+                            <li><a href="/src/App/index.html" >Home</a></li>
+                            <li><a href="/src/About us/about_us.html">About us</a></li>
+                            <li><a href="/src/Products/products.html">Our Products </a></li>
+                            <li><a href="/src/Our Farm/our_Farm.html">Our Farm</a></li>
+                            <li><a href="/src/growers/growers.html" class="highlight">Become a growers</a></li>
+                            <li><a href="/src/blogs/blogs.html">Blogs</a></li>
+                            <li><a href="/src/contact/contact.css">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <section>
+            <div class="first-container">
+                <h1>Become a growers</h1>
+                <button>เกี่ยวกับเรา</button>
+            </div>
+
+            <div class="two-container">
+                <div class="logo-content">
+                    <img src="/public/icons/logo_biocherish.webp" alt="logo-content">
+                    <p>ร่วมเป็นหนึ่งในไร่ส่งเสริมเกษตรกับ บริษัท ไบโอเชอริช จำกัด</p>
+                    <hr>
+                </div>
+                <div class="content-input">
+                    <form action="/submit_contact_form" method="post" enctype="multipart/form-data">
+                        <div>
+                            <label for="contact_name">ชื่อผู้ติดต่อ:</label>
+                            <input type="text" id="contact_name" name="contact_name" required>
+                        </div>
+                        <div>
+                            <label for="contact_phone">เบอร์ติดต่อ:</label>
+                            <input type="tel" id="contact_phone" name="contact_phone" required>
+                        </div>
+                        <div>
+                            <label for="contact_email">อีเมล:</label>
+                            <input type="email" id="contact_email" name="contact_email" required>
+                        </div>
+                        <div>
+                            <label for="farm_name">ชื่อสวนหรือไร่ของท่าน:</label>
+                            <input type="text" id="farm_name" name="farm_name">
+                        </div>
+                        <div>
+                            <label for="product_type">ประเภทผลผลิต:</label>
+                            <input type="text" id="product_type" name="product_type">
+                        </div>
+                        <div>
+                            <label for="address">ที่อยู่:</label>
+                            <textarea id="address" name="address" required></textarea>
+                        </div>
+                        <div>
+                            <label for="google_map_link">ลิงก์ Google Map:</label>
+                            <input type="url" id="google_map_link" name="google_map_link">
+                        </div>
+                        <div>
+                            <label for="image_upload">แนบรูปภาพประกอบ:</label>
+                            <input type="file" id="image_upload" name="image_upload" accept="image/*">
+                        </div>
+                        <div>
+                            <button type="submit">ส่งข้อมูล</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <footer>
+                <div class="footer-container">
+                    <div class="footer-section-logo">
+                        <img src="/public/icons/footer_logo.webp" alt="footer_logo">
+                    </div>
+                    <div class="footer-section-contact-info">
+                        <p>
+                            บริษัท ไบโอเซอริช จำกัด<br>
+                            ที่อยู่: 229 หมู่ 7 ตำบลนครเจดีย์ อำเภอ<br>
+                            ป่าซาง จังหวัดสำพูน 51120
+                        </p>
+                    </div>
+                    <div class="footer-section-contact">
+                        <a href="#" class="highlight">053-096296</a>
+                        <a href="#">achitaorganic@gmail.com</a>
+                    </div>
+                    <div class="footer-section-social-media">
+                        <a href="#" class="highlight">Bio Cherish</a>
+                        <a href="#">@lumlumorganic</a>            
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; Copyright 2023 | All Rights Reserved | biocherish.co.th</p>
+                </div>
+            </footer>
+        </section>
+    </main>
+</body>
+</html>

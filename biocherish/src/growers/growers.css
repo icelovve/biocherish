@@ -1,0 +1,100 @@
+section {
+    background-color: #f1f8e9;
+}
+
+.first-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(/public/image/bg_product.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 110px 0;
+}
+
+.first-container h1 {
+    color: #ffffff;
+    font-size: 49px;
+    font-weight: 500;
+}
+
+.first-container button {
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 35px;
+    padding: 18px 48px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background-color 0.3s, border 0.3s;
+}
+
+.first-container button:hover {
+    cursor: pointer;
+    background-color: #8bc34a;
+    border: none;
+}
+
+.two-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 40px 0;
+}
+
+.two-container .logo-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.two-container .logo-content hr{
+    width: 30%;
+    border: none;
+    border-top: 4px solid #669966;
+    margin: 30px 0 0 0;
+}
+
+.content-input {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 40px;
+}
+
+.content-input div {
+    margin-bottom: 20px;
+}
+
+.content-input label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.content-input input,
+.content-input textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.content-input button {
+    background-color: #c4bcac;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.content-input button:hover {
+    background-color: #7cb342;
+}
